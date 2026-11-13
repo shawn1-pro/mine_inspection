@@ -1,0 +1,62 @@
+# Catkin 工作空间生成文件
+/build/
+/devel/
+/install/
+/build_isolated/
+/devel_isolated/
+/install_isolated/
+/.catkin_tools/
+/.catkin_workspace
+
+# ROS / Gazebo 运行缓存与日志
+/.ros/
+/.gazebo/
+/log/
+/logs/
+*.log
+
+# 录包及本地实验输出；点云地图按目录忽略，保留源码内的模型资源
+*.bag
+*.bag.active
+*.bag.orig
+/bags/
+/data/
+/maps/
+/results/
+/outputs/
+
+# Docker 镜像归档存放目录
+/docker_images/
+
+# C / C++ 编译产物
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+
+# Python 缓存、虚拟环境与工具缓存
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地环境与凭据
+.env
+.env.*
+/.aws/
+/.ssh/
+*.pem
+*.key
+
+# 编辑器与操作系统临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

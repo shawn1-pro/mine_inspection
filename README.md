@@ -6,7 +6,7 @@
 
 ## 开发环境
 
-- 开发电脑：Ubuntu 22.04 + NVIDIA 独显，使用 Docker 开发。
+- 使用 Docker 开发。
 - 容器目标：Ubuntu 20.04 + ROS Noetic + Gazebo Classic 11。
 - 实机目标：Jetson Nano + Ubuntu 20.04 + ROS Noetic，后续单独适配和验证。
 
